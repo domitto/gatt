@@ -49,11 +49,11 @@
     </widget>
    </item>
    <item>
-    <widget class="PiraniGauge" name="PiraniGauge">
+    <widget class="RoughGauge" name="RoughGauge">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
+       <horstretch>200</horstretch>
+       <verstretch>100</verstretch>
       </sizepolicy>
      </property>
      <property name="minimumSize">
@@ -74,9 +74,6 @@
      <property name="channelsPrefix" stdset="0">
       <string>ca://${P}</string>
      </property>
-     <property name="iconSize" stdset="0">
-      <number>33</number>
-     </property>
     </widget>
    </item>
   </layout>
@@ -88,7 +85,7 @@
    <header>pcdswidgets.vacuum.base</header>
   </customwidget>
   <customwidget>
-   <class>PiraniGauge</class>
+   <class>RoughGauge</class>
    <extends>PCDSSymbolBase</extends>
    <header>pcdswidgets.vacuum.gauges</header>
   </customwidget>
